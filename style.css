@@ -1,0 +1,130 @@
+/* Header styles */
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(242, 147, 52);
+}
+
+/* Movie production styles */
+
+.top {
+  width: 40%;
+  text-align: center;
+  color: rgb(242, 147, 52);
+  font-size: 10px;
+}
+
+.top span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top p {
+  text-decoration: underline;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+
+/* Movie name styles */
+.movie_name {
+  text-align: center;
+  font-weight: bold;
+  color: #D37506;
+}
+
+/* Medium text styles for movie name */
+
+.medium {
+  font-size: 1.8rem;
+  font-family: 'Noto Serif Display', serif;
+  font-style: italic;
+}
+
+/* Big text styles for movie name */
+
+.big {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big b {
+  color: #D37506;
+}
+
+/* style the artist names */
+.name_1,
+.name_2,
+.name_3,
+.name_4,
+.name_5,
+.name_6,
+.name_7 {
+  font-family: 'Noto Serif Display', sans-serif;
+  color: rgb(242, 147, 52);
+  /*  margin-top: 1rem; */
+  text-align: center;
+  line-height: 1;
+  margin: 2px;
+}
+
+.artist_1,
+.artist_2,
+.artist_3,
+.artist_4,
+.artist_5,
+.artist_6,
+.artist_7 {
+  font-size: .45rem;
+}
+
+.lastname_1,
+.lastname_2,
+.lastname_3,
+.lastname_4,
+.lastname_5,
+.lastname_6,
+.lastname_7 {
+  font-size: .6rem;
+  display: block;
+}
+
+
+/* Footer styles */
+
+.bottom {
+  color: rgb(7, 6, 6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.bottom p {
+  margin: 2px;
+}
+a {
+  color: rgb(242, 147, 52);
+  text-decoration: underline; 
+}
+/* Movie image styles */
+
+.movie_poster {
+  display: grid;
+  grid-template-rows: 8% 8% 64% 20%;
+  margin: 0 auto;
+  background-image: url(../img/poster.jpeg);
+  width: 500px;
+  height: 750px;
+  background-size: cover;
+  padding: 1rem;
+}
